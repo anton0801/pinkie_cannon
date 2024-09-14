@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE5D0D352C9352F70031E008 /* Yumi.otf in Resources */ = {isa = PBXBuildFile; fileRef = EE5D0D342C9352F70031E008 /* Yumi.otf */; };
+		EE5D0D392C9356ED0031E008 /* CanonLevelsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5D0D382C9356ED0031E008 /* CanonLevelsView.swift */; };
+		EE5D0D3B2C93587B0031E008 /* CanonLevelsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5D0D3A2C93587B0031E008 /* CanonLevelsManager.swift */; };
+		EE5D0D3D2C9359C20031E008 /* CanonGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5D0D3C2C9359C20031E008 /* CanonGameView.swift */; };
+		EE5D0D412C935AD00031E008 /* CanonGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5D0D402C935AD00031E008 /* CanonGameScene.swift */; };
+		EE5D0D442C9372A20031E008 /* GamePauseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5D0D432C9372A20031E008 /* GamePauseView.swift */; };
+		EE5D0D462C9374170031E008 /* FailedGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5D0D452C9374170031E008 /* FailedGameView.swift */; };
+		EE5D0D482C93756D0031E008 /* WinGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5D0D472C93756D0031E008 /* WinGameView.swift */; };
+		EE5D0D4A2C9377D40031E008 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5D0D492C9377D40031E008 /* UserData.swift */; };
+		EE5D0D4C2C9379540031E008 /* CannonSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5D0D4B2C9379540031E008 /* CannonSettingsView.swift */; };
+		EE5D0D4E2C937F4B0031E008 /* ShopBallsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5D0D4D2C937F4B0031E008 /* ShopBallsViewModel.swift */; };
+		EE5D0D502C93847A0031E008 /* BallsShopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5D0D4F2C93847A0031E008 /* BallsShopView.swift */; };
+		EE9F077D2C8C70D50093E546 /* Pinkie_CannonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9F077C2C8C70D50093E546 /* Pinkie_CannonApp.swift */; };
+		EE9F077F2C8C70D50093E546 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9F077E2C8C70D50093E546 /* ContentView.swift */; };
+		EE9F07812C8C70D70093E546 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE9F07802C8C70D70093E546 /* Assets.xcassets */; };
+		EE9F07842C8C70D70093E546 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE9F07832C8C70D70093E546 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EE5D0D342C9352F70031E008 /* Yumi.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Yumi.otf; sourceTree = "<group>"; };
+		EE5D0D362C93530B0031E008 /* Pinkie-Cannon-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Pinkie-Cannon-Info.plist"; sourceTree = SOURCE_ROOT; };
+		EE5D0D382C9356ED0031E008 /* CanonLevelsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanonLevelsView.swift; sourceTree = "<group>"; };
+		EE5D0D3A2C93587B0031E008 /* CanonLevelsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanonLevelsManager.swift; sourceTree = "<group>"; };
+		EE5D0D3C2C9359C20031E008 /* CanonGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanonGameView.swift; sourceTree = "<group>"; };
+		EE5D0D402C935AD00031E008 /* CanonGameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanonGameScene.swift; sourceTree = "<group>"; };
+		EE5D0D432C9372A20031E008 /* GamePauseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamePauseView.swift; sourceTree = "<group>"; };
+		EE5D0D452C9374170031E008 /* FailedGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FailedGameView.swift; sourceTree = "<group>"; };
+		EE5D0D472C93756D0031E008 /* WinGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinGameView.swift; sourceTree = "<group>"; };
+		EE5D0D492C9377D40031E008 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		EE5D0D4B2C9379540031E008 /* CannonSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CannonSettingsView.swift; sourceTree = "<group>"; };
+		EE5D0D4D2C937F4B0031E008 /* ShopBallsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopBallsViewModel.swift; sourceTree = "<group>"; };
+		EE5D0D4F2C93847A0031E008 /* BallsShopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BallsShopView.swift; sourceTree = "<group>"; };
+		EE9F07792C8C70D50093E546 /* Pinkie Cannon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pinkie Cannon.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE9F077C2C8C70D50093E546 /* Pinkie_CannonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pinkie_CannonApp.swift; sourceTree = "<group>"; };
+		EE9F077E2C8C70D50093E546 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EE9F07802C8C70D70093E546 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE9F07832C8C70D70093E546 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE9F07762C8C70D50093E546 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE5D0D2F2C93512A0031E008 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EE9F077E2C8C70D50093E546 /* ContentView.swift */,
+				EE5D0D332C9351430031E008 /* Levels */,
+				EE5D0D322C93513A0031E008 /* Settings */,
+				EE5D0D312C9351360031E008 /* Game */,
+				EE5D0D302C9351320031E008 /* Shop */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EE5D0D302C9351320031E008 /* Shop */ = {
+			isa = PBXGroup;
+			children = (
+				EE5D0D4D2C937F4B0031E008 /* ShopBallsViewModel.swift */,
+				EE5D0D4F2C93847A0031E008 /* BallsShopView.swift */,
+			);
+			path = Shop;
+			sourceTree = "<group>";
+		};
+		EE5D0D312C9351360031E008 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				EE5D0D3F2C935AC50031E008 /* Views */,
+				EE5D0D3E2C935AC10031E008 /* Scene */,
+				EE5D0D3C2C9359C20031E008 /* CanonGameView.swift */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+		EE5D0D322C93513A0031E008 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				EE5D0D4B2C9379540031E008 /* CannonSettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		EE5D0D332C9351430031E008 /* Levels */ = {
+			isa = PBXGroup;
+			children = (
+				EE5D0D372C9356E10031E008 /* Manager */,
+				EE5D0D382C9356ED0031E008 /* CanonLevelsView.swift */,
+			);
+			path = Levels;
+			sourceTree = "<group>";
+		};
+		EE5D0D372C9356E10031E008 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				EE5D0D3A2C93587B0031E008 /* CanonLevelsManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		EE5D0D3E2C935AC10031E008 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				EE5D0D402C935AD00031E008 /* CanonGameScene.swift */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		EE5D0D3F2C935AC50031E008 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EE5D0D432C9372A20031E008 /* GamePauseView.swift */,
+				EE5D0D452C9374170031E008 /* FailedGameView.swift */,
+				EE5D0D472C93756D0031E008 /* WinGameView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EE9F07702C8C70D50093E546 = {
+			isa = PBXGroup;
+			children = (
+				EE9F077B2C8C70D50093E546 /* Pinkie Cannon */,
+				EE9F077A2C8C70D50093E546 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE9F077A2C8C70D50093E546 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE9F07792C8C70D50093E546 /* Pinkie Cannon.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE9F077B2C8C70D50093E546 /* Pinkie Cannon */ = {
+			isa = PBXGroup;
+			children = (
+				EE5D0D362C93530B0031E008 /* Pinkie-Cannon-Info.plist */,
+				EE5D0D2F2C93512A0031E008 /* Views */,
+				EE9F077C2C8C70D50093E546 /* Pinkie_CannonApp.swift */,
+				EE5D0D342C9352F70031E008 /* Yumi.otf */,
+				EE9F07802C8C70D70093E546 /* Assets.xcassets */,
+				EE9F07822C8C70D70093E546 /* Preview Content */,
+				EE5D0D492C9377D40031E008 /* UserData.swift */,
+			);
+			path = "Pinkie Cannon";
+			sourceTree = "<group>";
+		};
+		EE9F07822C8C70D70093E546 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EE9F07832C8C70D70093E546 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE9F07782C8C70D50093E546 /* Pinkie Cannon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE9F07872C8C70D70093E546 /* Build configuration list for PBXNativeTarget "Pinkie Cannon" */;
+			buildPhases = (
+				EE9F07752C8C70D50093E546 /* Sources */,
+				EE9F07762C8C70D50093E546 /* Frameworks */,
+				EE9F07772C8C70D50093E546 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pinkie Cannon";
+			productName = "Pinkie Cannon";
+			productReference = EE9F07792C8C70D50093E546 /* Pinkie Cannon.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE9F07712C8C70D50093E546 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					EE9F07782C8C70D50093E546 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = EE9F07742C8C70D50093E546 /* Build configuration list for PBXProject "Pinkie Cannon" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE9F07702C8C70D50093E546;
+			productRefGroup = EE9F077A2C8C70D50093E546 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE9F07782C8C70D50093E546 /* Pinkie Cannon */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE9F07772C8C70D50093E546 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE9F07842C8C70D70093E546 /* Preview Assets.xcassets in Resources */,
+				EE9F07812C8C70D70093E546 /* Assets.xcassets in Resources */,
+				EE5D0D352C9352F70031E008 /* Yumi.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE9F07752C8C70D50093E546 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE5D0D3B2C93587B0031E008 /* CanonLevelsManager.swift in Sources */,
+				EE5D0D462C9374170031E008 /* FailedGameView.swift in Sources */,
+				EE5D0D392C9356ED0031E008 /* CanonLevelsView.swift in Sources */,
+				EE5D0D4E2C937F4B0031E008 /* ShopBallsViewModel.swift in Sources */,
+				EE5D0D482C93756D0031E008 /* WinGameView.swift in Sources */,
+				EE9F077F2C8C70D50093E546 /* ContentView.swift in Sources */,
+				EE9F077D2C8C70D50093E546 /* Pinkie_CannonApp.swift in Sources */,
+				EE5D0D4C2C9379540031E008 /* CannonSettingsView.swift in Sources */,
+				EE5D0D412C935AD00031E008 /* CanonGameScene.swift in Sources */,
+				EE5D0D442C9372A20031E008 /* GamePauseView.swift in Sources */,
+				EE5D0D4A2C9377D40031E008 /* UserData.swift in Sources */,
+				EE5D0D3D2C9359C20031E008 /* CanonGameView.swift in Sources */,
+				EE5D0D502C93847A0031E008 /* BallsShopView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EE9F07852C8C70D70093E546 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EE9F07862C8C70D70093E546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE9F07882C8C70D70093E546 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Pinkie Cannon/Preview Content\"";
+				DEVELOPMENT_TEAM = 4RSA42DBKQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Pinkie-Cannon-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gamenation.Pinkie-Cannon";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE9F07892C8C70D70093E546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Pinkie Cannon/Preview Content\"";
+				DEVELOPMENT_TEAM = 4RSA42DBKQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Pinkie-Cannon-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gamenation.Pinkie-Cannon";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE9F07742C8C70D50093E546 /* Build configuration list for PBXProject "Pinkie Cannon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE9F07852C8C70D70093E546 /* Debug */,
+				EE9F07862C8C70D70093E546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE9F07872C8C70D70093E546 /* Build configuration list for PBXNativeTarget "Pinkie Cannon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE9F07882C8C70D70093E546 /* Debug */,
+				EE9F07892C8C70D70093E546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE9F07712C8C70D50093E546 /* Project object */;
+}
